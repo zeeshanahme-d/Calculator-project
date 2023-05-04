@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    /* font-family: 'Philosopher'; */
+    font-family: "Josefin Sans";
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5eff8;
+}
+
+.calculator {
+    margin-top: 50px;
+    width: 350px;
+    border-radius: 30px;
+    background-color: #e8eef3;
+    box-shadow: inset 5px 5px 102px #ffffff, 5px 5px 12px rgb(0, 0, 0, .16)
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.cal {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 10px 10px 0px 15px;
+    color: #000;
+}
+
+.calculator-input {
+    width: 95%;
+    margin: 10px 10px 20px 10px;
+    padding: 25px 15px 20px 0px;
+    text-align: right;
+    font-size: 35px;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ecf0f3;
+    color: black;
+    outline: none;
+    box-shadow: inset -5px -5px 9px #ffffff, inset 5px 5px 12px rgb(0, 0, 0, .16)
+}
+
+.calculator-btn {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+
+.calculator button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    background-color: #ecf0f3;
+    color: #000;
+    letter-spacing: 1px;
+    box-shadow: inset -5px -5px 102px #ffffff, 5px 5px 12px rgb(0, 0, 0, .16);
+    border: none;
+    border-radius: 50%;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.calculator button:hover {
+    background-color: #00000090;
+    color: #000000;
+}
+
+.calculator button:active {
+    background-color: #fff;
+    color: #000000;
+}
+
+#btnEqual {
+    width: 132px;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 102px #fff, 5px 5px 12px rgb(0, 0, 0, .16);
+}
+
+.info {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info span {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width:350px) {
+    .calculator {
+        width: 100%;
+    }
+}
